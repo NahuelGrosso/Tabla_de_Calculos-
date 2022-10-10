@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="No_Entrar/Estilos.css">
+    <title>Calculo de Alquileres</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="Cabeza">
+            <h1 class="Titulo">Calculos para evaluar el valor de los alquileres</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="Pesificar">
+
+            <div class="Valor">
+                <h3>Ingrese el valor del dolar</h3>
+            </div>
+            <form id="formulario">
+                <div class="Inputs">
+                <label for="">Compra:</label>
+                <input type="number" name="dolarCompra" id="dolarCompra">
+                <label for="">Venta:</label>
+                <input type="number" name="dolarVenta" id="dolarVenta">
+                </div>
+
+                <Div>
+                <button type="button" onclick="realizarCalculo()">Calcular Valor medio del dolar</button>
+                </Div>
+
+                <Div>
+                <button onclick="Limpiar">Limpiar los Campos</button>
+                </Div>
+
+            </form>
+
+            <h3>Promedio del Valor del dolar:</h3>
+            <h4 id="PromedioDolar"></h4>
+        </div>
+
+    </main>
+
+    <Aside>
+        <div class="Divisiones">
+            <h3>El valor de la casa en dolares, precio estandarizado es de u$s 2500 por el mes de Enero</h3>
+
+            <h2>El valor de la casa, para el mes de Enero, expresado en pesos es de:</h2>
+
+            <h4 id="CasaEnero"> </h4>
+
+            <h2>Y el valor por quincena, es del 53% del mes: </h2>
+
+            <h4 id="CasaQuincenaEnero"></h4>
+        </div>
+
+
+        <div class="Divisiones">
+            <h2>El valor del departamento en Enero es del 55% del valor de la casa, en el mismo mes:</h2>
+
+            <h4 id="DptoEnero"></h4>
+
+            <h2>El valor de la quincena del departamento, es del 53% de su valor mensual:</h2>
+
+            <h4 id="DptoQuincenaEnero"></h4>
+        </div>
+
+        <Div class="Divisiones">
+            <h2>El valor del la casa, para el mes de Febrero es del 80% de la misma, en Enero:</h2>
+
+            <h4 id="CasaFebrero"></h4>
+
+            <h2>Por quincena:</h2>
+
+            <h4 id="CasaQuincenaFebrero"></h4>
+
+        </Div>
+
+        <div class="Divisiones">
+            <h2>El valor del departamento en el mes de Febrero es del 80% del valor del mismo, en el mes de Enero:</h2>
+
+            <h4 id="DptoFebrero"></h4>
+
+            <h2>Por quincena:</h2>
+
+            <h4 id="DptoQuincenaFebrero"></h4>
+        </div>
+
+    </Aside>
+    <footer>
+        <div class="Divisiones">
+            <h2>Acá encontramos el valor aproximado por día</h2>
+            <p>Lo calculamos de la siguiente forma, el valor total del mes, dividido 30(Días) + un 15%</p>
+
+            <h3>Valor por día de la casa:</h3>
+            <h3>Enero:</h3>
+            <h4 id="ValorxDiaCasaEnero"></h4>
+            <h3>Febrero:</h3>
+            <h4 id="ValorxDiaCasaFebrero"></h4>
+
+            <h3>Valor por día del Departamento:</h3>
+            <h3>Enero:</h3>
+            <h4 id="ValorxDiaDptoEnero"></h4>
+            <h3>Febrero:</h3>
+            <h4 id="ValorxDiaDptoFebrero"></h4>
+        </div>
+    </footer>
+
+    <Footer class="Final">
+        <h6>Espero que te sirva vieji!!!!</h6>
+    </Footer>
+
+
+    <script src="No_Entrar/Formulas.js"></script>
+
+</body>
+
+</html>

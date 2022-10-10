@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: auto;
+    height: 120px;
+    background-color: rgb(15, 54, 28);
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+h1 {
+    color: rgb(245, 199, 146);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-decoration: underline;
+
+}
+
+.Pesificar {
+    width: max-content;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.Inputs {
+    font-size: x-large;
+    width: max-content;
+    height: max-content;
+}
+
+#dolarCompra,
+#dolarVenta {
+    border-radius: 10px;
+    height: 30px;
+    padding: 10px;
+    
+}
+
+ button {
+    width: 150px;
+    height: max-content;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgb(15, 54, 28);
+    color: rgb(245, 199, 146);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+ }
+
+
+h4 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+main,
+aside,
+footer {
+    background-color: bisque;
+    margin-left: 25px;
+}
+
+.Divisiones {
+    width: 70%;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 15px;
+
+}
+
+h6 {
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(20, 73, 94);
+    
+}
+
+.Final {
+    margin: 25px;
+    
+}
